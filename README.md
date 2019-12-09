@@ -1,2 +1,3 @@
-# bayesopt-repl
-Bayesian Optimization that looks ahead over replication 
+# Bayesian Optimization that looks ahead over replication 
+
+Working repository. 
