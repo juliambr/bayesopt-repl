@@ -9,7 +9,6 @@
 
 # devtools::install_github("juliambr/smoof")
 # install_github("mlr-org/mlrMBO", ref = "feature_noisy_incumbent_ocba")
-
 packages = c( 
   "batchtools",
   "smoof", 
