@@ -1,0 +1,24 @@
+### [bt]: This is batchtools v0.9.11
+### [bt]: Starting calculation of 1 jobs
+### [bt]: Setting working directory to '/home/julia/Documents/repos/bayesopt-repl/benchmark/b2-noise-effect'
+### [bt]: Memory measurement disabled
+### [bt]: Starting job [batchtools job.id=45]
+### [bt]: Generating problem instance for problem 'Sphere.2D_CONST_0' ...
+### [bt]: Applying algorithm 'mbo' on problem 'Sphere.2D_CONST_0' for job 45 (seed = 168) ...
+Computing y column(s) for design. Not provided.
+[mbo] 0: x=2.02 : y = 4.1 : 0.0 secs : initdesign
+[mbo] 0: x=-3.08 : y = 9.47 : 0.0 secs : initdesign
+[mbo] 0: x=3.24 : y = 10.5 : 0.0 secs : initdesign
+[mbo] 0: x=-0.259 : y = 0.0672 : 0.0 secs : initdesign
+[mbo] 1: x=-0.215 : y = 0.0462 : 0.0 secs : infill_ei
+[mbo] 2: x=0.615 : y = 0.379 : 0.0 secs : infill_ei
+[mbo] 3: x=0.141 : y = 0.0198 : 0.0 secs : infill_ei
+[mbo] 4: x=-0.0108 : y = 0.000116 : 0.0 secs : infill_ei
+[mbo] 5: x=0.0495 : y = 0.00245 : 0.0 secs : infill_ei
+[mbo] 6: x=-0.0748 : y = 0.0056 : 0.0 secs : infill_ei
+[mbo] 7: x=0.014 : y = 0.000196 : 0.0 secs : infill_ei
+[mbo] 8: x=-0.733 : y = 0.538 : 0.0 secs : infill_ei
+[mbo] 9: x=-0.0295 : y = 0.00087 : 0.0 secs : infill_ei
+[mbo] 10: x=0.000858 : y = 7.36e-07 : 0.0 secs : infill_ei
+[mbo] 11: x=-0.000473 : y = 2.23e-07 : 0.0 secs : infill_ei
+[mbo] 12: x=0.282 : y = 0.0796 : 0.0 secs : infill_ei

@@ -1,0 +1,178 @@
+### [bt]: This is batchtools v0.9.11
+### [bt]: Starting calculation of 1 jobs
+### [bt]: Setting working directory to '/home/julia/Documents/repos/bayesopt-repl/benchmark/b2-noise-effect'
+Loading required package: batchtools
+Loading required package: data.table
+Loading required package: smoof
+Loading required package: ParamHelpers
+Loading required package: checkmate
+Loading required package: mlrMBO
+Loading required package: mlr
+### [bt]: Memory measurement disabled
+### [bt]: Starting job [batchtools job.id=26]
+### [bt]: Generating problem instance for problem 'Sphere.2D_CONST_0' ...
+### [bt]: Applying algorithm 'mbo' on problem 'Sphere.2D_CONST_0' for job 26 (seed = 149) ...
+Computing y column(s) for design. Not provided.
+[mbo] 0: x=-4.5 : y = 20.2 : 0.0 secs : initdesign
+[mbo] 0: x=0.0889 : y = 0.0079 : 0.0 secs : initdesign
+[mbo] 0: x=-0.473 : y = 0.223 : 0.0 secs : initdesign
+[mbo] 0: x=4.47 : y = 20 : 0.0 secs : initdesign
+[mbo] 1: x=0.975 : y = 0.951 : 0.0 secs : infill_ei
+[mbo] 2: x=0.45 : y = 0.202 : 0.0 secs : infill_ei
+[mbo] 3: x=-0.158 : y = 0.0251 : 0.0 secs : infill_ei
+[mbo] 4: x=-0.0221 : y = 0.00049 : 0.0 secs : infill_ei
+[mbo] 5: x=0.204 : y = 0.0418 : 0.0 secs : infill_ei
+[mbo] 6: x=0.0236 : y = 0.000559 : 0.0 secs : infill_ei
+[mbo] 7: x=-0.0679 : y = 0.00461 : 0.0 secs : infill_ei
+[mbo] 8: x=0.000311 : y = 9.69e-08 : 0.0 secs : infill_ei
+[mbo] 9: x=0.00283 : y = 8e-06 : 0.0 secs : infill_ei
+[mbo] 10: x=-0.00782 : y = 6.11e-05 : 0.0 secs : infill_ei
+[mbo] 11: x=-1.1 : y = 1.21 : 0.0 secs : infill_ei
+[mbo] 12: x=0.0445 : y = 0.00198 : 0.0 secs : infill_ei
+[mbo] 13: x=0.00887 : y = 7.86e-05 : 0.0 secs : infill_ei
+[mbo] 14: x=-0.00413 : y = 1.7e-05 : 0.0 secs : infill_ei
+[mbo] 15: x=0.0038 : y = 1.44e-05 : 0.0 secs : infill_ei
+[mbo] 16: x=-0.00277 : y = 7.66e-06 : 0.0 secs : infill_ei
+[mbo] 17: x=-0.0379 : y = 0.00144 : 0.0 secs : infill_ei
+[mbo] 18: x=-0.000128 : y = 1.63e-08 : 0.0 secs : infill_ei
+[mbo] 19: x=-0.0102 : y = 0.000103 : 0.0 secs : infill_ei
+[mbo] 20: x=0.00644 : y = 4.15e-05 : 0.0 secs : infill_ei
+[mbo] 21: x=-0.000802 : y = 6.44e-07 : 0.0 secs : infill_ei
+[mbo] 22: x=0.000457 : y = 2.09e-07 : 0.0 secs : infill_ei
+[mbo] 23: x=-0.00216 : y = 4.65e-06 : 0.0 secs : infill_ei
+[mbo] 24: x=0.0127 : y = 0.000161 : 0.0 secs : infill_ei
+[mbo] 25: x=0.00185 : y = 3.42e-06 : 0.0 secs : infill_ei
+[mbo] 26: x=-0.265 : y = 0.0703 : 0.0 secs : infill_ei
+[mbo] 27: x=-0.00162 : y = 2.61e-06 : 0.0 secs : infill_ei
+[mbo] 28: x=0.00176 : y = 3.11e-06 : 0.0 secs : infill_ei
+[mbo] 29: x=-0.00308 : y = 9.48e-06 : 0.0 secs : infill_ei
+[mbo] 30: x=0.00116 : y = 1.34e-06 : 0.0 secs : infill_ei
+[mbo] 31: x=-0.000428 : y = 1.83e-07 : 0.0 secs : infill_ei
+[mbo] 32: x=0.00267 : y = 7.14e-06 : 0.0 secs : infill_ei
+[mbo] 33: x=-0.000939 : y = 8.83e-07 : 0.0 secs : infill_ei
+[mbo] 34: x=0.000323 : y = 1.05e-07 : 0.0 secs : infill_ei
+[mbo] 35: x=-0.00404 : y = 1.63e-05 : 0.0 secs : infill_ei
+[mbo] 36: x=0.000707 : y = 4.99e-07 : 0.0 secs : infill_ei
+[mbo] 37: x=-0.000857 : y = 7.34e-07 : 0.0 secs : infill_ei
+[mbo] 38: x=0.00346 : y = 1.2e-05 : 0.0 secs : infill_ei
+[mbo] 39: x=-0.000311 : y = 9.67e-08 : 0.0 secs : infill_ei
+[mbo] 40: x=0.000787 : y = 6.2e-07 : 0.0 secs : infill_ei
+[mbo] 41: x=-0.0014 : y = 1.97e-06 : 0.0 secs : infill_ei
+[mbo] 42: x=0.000899 : y = 8.09e-07 : 0.0 secs : infill_ei
+[mbo] 43: x=-0.000974 : y = 9.49e-07 : 0.0 secs : infill_ei
+[mbo] 44: x=0.00116 : y = 1.35e-06 : 0.0 secs : infill_ei
+[mbo] 45: x=-0.000699 : y = 4.89e-07 : 0.0 secs : infill_ei
+[mbo] 46: x=0.000167 : y = 2.78e-08 : 0.0 secs : infill_ei
+[mbo] 47: x=-0.00165 : y = 2.72e-06 : 0.0 secs : infill_ei
+[mbo] 48: x=0.00145 : y = 2.09e-06 : 0.0 secs : infill_ei
+[mbo] 49: x=4.45e-05 : y = 1.98e-09 : 0.0 secs : infill_ei
+[mbo] 50: x=-0.000128 : y = 1.63e-08 : 0.0 secs : infill_ei
+[mbo] 51: x=-0.00141 : y = 2e-06 : 0.0 secs : infill_ei
+[mbo] 52: x=-0.103 : y = 0.0105 : 0.0 secs : infill_ei
+[mbo] 53: x=0.00117 : y = 1.37e-06 : 0.0 secs : infill_ei
+[mbo] 54: x=-4.86e-05 : y = 2.36e-09 : 0.0 secs : infill_ei
+[mbo] 55: x=0.000137 : y = 1.88e-08 : 0.0 secs : infill_ei
+[mbo] 56: x=0.00156 : y = 2.44e-06 : 0.0 secs : infill_ei
+[mbo] 57: x=-0.0012 : y = 1.45e-06 : 0.0 secs : infill_ei
+[mbo] 58: x=-9.79e-05 : y = 9.59e-09 : 0.0 secs : infill_ei
+[mbo] 59: x=0.00033 : y = 1.09e-07 : 0.0 secs : infill_ei
+[mbo] 60: x=-0.000587 : y = 3.44e-07 : 0.0 secs : infill_ei
+[mbo] 61: x=0.000769 : y = 5.91e-07 : 0.0 secs : infill_ei
+[mbo] 62: x=0.134 : y = 0.0179 : 0.0 secs : infill_ei
+[mbo] 63: x=-0.0018 : y = 3.23e-06 : 0.0 secs : infill_ei
+[mbo] 64: x=5.52e-06 : y = 3.05e-11 : 0.0 secs : infill_ei
+[mbo] 65: x=0.000515 : y = 2.65e-07 : 0.0 secs : infill_ei
+[mbo] 66: x=-0.000608 : y = 3.7e-07 : 0.0 secs : infill_ei
+[mbo] 67: x=0.00199 : y = 3.97e-06 : 0.0 secs : infill_ei
+[mbo] 68: x=-0.000165 : y = 2.74e-08 : 0.0 secs : infill_ei
+[mbo] 69: x=-0.000275 : y = 7.54e-08 : 0.0 secs : infill_ei
+[mbo] 70: x=0.000532 : y = 2.83e-07 : 0.0 secs : infill_ei
+[mbo] 71: x=-0.00065 : y = 4.23e-07 : 0.0 secs : infill_ei
+[mbo] 72: x=0.000486 : y = 2.36e-07 : 0.0 secs : infill_ei
+[mbo] 73: x=-0.000558 : y = 3.12e-07 : 0.0 secs : infill_ei
+[mbo] 74: x=0.000664 : y = 4.41e-07 : 0.0 secs : infill_ei
+[mbo] 75: x=-0.0011 : y = 1.21e-06 : 0.0 secs : infill_ei
+[mbo] 76: x=0.000421 : y = 1.77e-07 : 0.0 secs : infill_ei
+[mbo] 77: x=-0.0002 : y = 4.01e-08 : 0.0 secs : infill_ei
+[mbo] 78: x=0.000957 : y = 9.16e-07 : 0.0 secs : infill_ei
+[mbo] 79: x=-0.000297 : y = 8.85e-08 : 0.0 secs : infill_ei
+[mbo] 80: x=-8.18e-05 : y = 6.7e-09 : 0.0 secs : infill_ei
+[mbo] 81: x=-0.00185 : y = 3.42e-06 : 0.0 secs : infill_ei
+[mbo] 82: x=0.000247 : y = 6.12e-08 : 0.0 secs : infill_ei
+[mbo] 83: x=0.000926 : y = 8.57e-07 : 0.0 secs : infill_ei
+[mbo] 84: x=-0.000403 : y = 1.63e-07 : 0.0 secs : infill_ei
+[mbo] 85: x=-0.000129 : y = 1.66e-08 : 0.0 secs : infill_ei
+[mbo] 86: x=0.000161 : y = 2.6e-08 : 0.0 secs : infill_ei
+[mbo] 87: x=-0.000557 : y = 3.1e-07 : 0.0 secs : infill_ei
+[mbo] 88: x=0.00113 : y = 1.29e-06 : 0.0 secs : infill_ei
+[mbo] 89: x=-0.00019 : y = 3.62e-08 : 0.0 secs : infill_ei
+[mbo] 90: x=0.000352 : y = 1.24e-07 : 0.0 secs : infill_ei
+[mbo] 91: x=-0.000747 : y = 5.57e-07 : 0.0 secs : infill_ei
+[mbo] 92: x=0.000227 : y = 5.17e-08 : 0.0 secs : infill_ei
+[mbo] 93: x=-0.000373 : y = 1.39e-07 : 0.0 secs : infill_ei
+[mbo] 94: x=0.00072 : y = 5.18e-07 : 0.0 secs : infill_ei
+[mbo] 95: x=-0.0144 : y = 0.000206 : 0.0 secs : infill_ei
+[mbo] 96: x=-2.93e-05 : y = 8.61e-10 : 0.0 secs : infill_ei
+[mbo] 97: x=-0.000662 : y = 4.38e-07 : 0.0 secs : infill_ei
+[mbo] 98: x=0.000502 : y = 2.52e-07 : 0.0 secs : infill_ei
+[mbo] 99: x=7.8e-05 : y = 6.09e-09 : 0.0 secs : infill_ei
+[mbo] 100: x=-0.000527 : y = 2.78e-07 : 0.0 secs : infill_ei
+[mbo] 101: x=0.000308 : y = 9.5e-08 : 0.0 secs : infill_ei
+[mbo] 102: x=3.38e-05 : y = 1.14e-09 : 0.0 secs : infill_ei
+[mbo] 103: x=0.00133 : y = 1.76e-06 : 0.0 secs : infill_ei
+[mbo] 104: x=-0.000928 : y = 8.61e-07 : 0.0 secs : infill_ei
+[mbo] 105: x=7.9e-05 : y = 6.25e-09 : 0.0 secs : infill_ei
+[mbo] 106: x=-6.82e-05 : y = 4.65e-09 : 0.0 secs : infill_ei
+[mbo] 107: x=0.000154 : y = 2.38e-08 : 0.0 secs : infill_ei
+[mbo] 108: x=-0.000535 : y = 2.86e-07 : 0.0 secs : infill_ei
+[mbo] 109: x=0.000479 : y = 2.29e-07 : 0.0 secs : infill_ei
+[mbo] 110: x=-0.000244 : y = 5.94e-08 : 0.0 secs : infill_ei
+[mbo] 111: x=0.000406 : y = 1.65e-07 : 0.0 secs : infill_ei
+[mbo] 112: x=-0.000829 : y = 6.87e-07 : 0.0 secs : infill_ei
+[mbo] 113: x=4.06e-05 : y = 1.65e-09 : 0.0 secs : infill_ei
+[mbo] 114: x=0.000606 : y = 3.67e-07 : 0.0 secs : infill_ei
+[mbo] 115: x=-0.000276 : y = 7.59e-08 : 0.0 secs : infill_ei
+[mbo] 116: x=-1.59e-05 : y = 2.51e-10 : 0.0 secs : infill_ei
+[mbo] 117: x=0.000342 : y = 1.17e-07 : 0.0 secs : infill_ei
+[mbo] 118: x=-0.000722 : y = 5.21e-07 : 0.0 secs : infill_ei
+[mbo] 119: x=0.00016 : y = 2.57e-08 : 0.0 secs : infill_ei
+[mbo] 120: x=-0.00017 : y = 2.9e-08 : 0.0 secs : infill_ei
+[mbo] 121: x=0.000886 : y = 7.85e-07 : 0.0 secs : infill_ei
+[mbo] 122: x=-0.000251 : y = 6.31e-08 : 0.0 secs : infill_ei
+[mbo] 123: x=0.000114 : y = 1.29e-08 : 0.0 secs : infill_ei
+[mbo] 124: x=-0.000356 : y = 1.27e-07 : 0.0 secs : infill_ei
+[mbo] 125: x=0.000468 : y = 2.19e-07 : 0.0 secs : infill_ei
+[mbo] 126: x=-0.000178 : y = 3.17e-08 : 0.0 secs : infill_ei
+[mbo] 127: x=-0.00103 : y = 1.07e-06 : 0.0 secs : infill_ei
+[mbo] 128: x=0.000481 : y = 2.31e-07 : 0.0 secs : infill_ei
+[mbo] 129: x=5.57e-05 : y = 3.1e-09 : 0.0 secs : infill_ei
+[mbo] 130: x=-8.8e-05 : y = 7.74e-09 : 0.0 secs : infill_ei
+[mbo] 131: x=6.88e-05 : y = 4.73e-09 : 0.0 secs : infill_ei
+[mbo] 132: x=-0.000256 : y = 6.53e-08 : 0.0 secs : infill_ei
+[mbo] 133: x=0.000662 : y = 4.38e-07 : 0.0 secs : infill_ei
+[mbo] 134: x=-0.000375 : y = 1.41e-07 : 0.0 secs : infill_ei
+[mbo] 135: x=0.000207 : y = 4.31e-08 : 0.0 secs : infill_ei
+[mbo] 136: x=-0.000471 : y = 2.22e-07 : 0.0 secs : infill_ei
+[mbo] 137: x=0.000198 : y = 3.93e-08 : 0.0 secs : infill_ei
+[mbo] 138: x=0.000224 : y = 5.04e-08 : 0.0 secs : infill_ei
+[mbo] 139: x=-0.000355 : y = 1.26e-07 : 0.0 secs : infill_ei
+[mbo] 140: x=0.000598 : y = 3.58e-07 : 0.0 secs : infill_ei
+[mbo] 141: x=-0.000184 : y = 3.4e-08 : 0.0 secs : infill_ei
+[mbo] 142: x=0.000152 : y = 2.3e-08 : 0.0 secs : infill_ei
+[mbo] 143: x=-0.000302 : y = 9.11e-08 : 0.0 secs : infill_ei
+[mbo] 144: x=0.000239 : y = 5.74e-08 : 0.0 secs : infill_ei
+[mbo] 145: x=-0.000496 : y = 2.46e-07 : 0.0 secs : infill_ei
+[mbo] 146: x=0.000287 : y = 8.26e-08 : 0.0 secs : infill_ei
+[mbo] 147: x=-8.05e-09 : y = 6.47e-17 : 0.0 secs : infill_ei
+[mbo] 148: x=0.000879 : y = 7.73e-07 : 0.0 secs : infill_ei
+[mbo] 149: x=-0.000276 : y = 7.59e-08 : 0.0 secs : infill_ei
+[mbo] 150: x=-9.48e-05 : y = 8.98e-09 : 0.0 secs : infill_ei
+[mbo] 151: x=-5.85e-05 : y = 3.42e-09 : 0.0 secs : infill_ei
+[mbo] 152: x=-0.000666 : y = 4.44e-07 : 0.0 secs : infill_ei
+[mbo] 153: x=0.000243 : y = 5.92e-08 : 0.0 secs : infill_ei
+[mbo] 154: x=0.000134 : y = 1.81e-08 : 0.0 secs : infill_ei
+[mbo] 155: x=2.35e-05 : y = 5.52e-10 : 0.0 secs : infill_ei
+[mbo] 156: x=-0.000144 : y = 2.07e-08 : 0.0 secs : infill_ei
+
+### [bt]: Job terminated successfully [batchtools job.id=26]
+### [bt]: Calculation finished!
