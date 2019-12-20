@@ -16,7 +16,7 @@ REPLICATIONS = 25L
 
 
 FUNS = list(
-  "Sphere.2D" = makeSphereFunction(1),
+  "Sphere.2D" = makeSphereFunction(2),
   "Styblinsky" = makeStyblinkskiTangFunction()
   )
 

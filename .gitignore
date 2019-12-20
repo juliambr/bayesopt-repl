@@ -41,3 +41,4 @@ vignettes/*.pdf
 # batchtools registry
 *.log
 *.rds
+/registry/

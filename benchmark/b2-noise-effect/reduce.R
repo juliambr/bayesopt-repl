@@ -15,3 +15,4 @@ res = reduceResultsDataTable(findDone())
 res = ijoin(tab, res, by = "job.id")
 
 saveRDS(res, "results/raw/resv1.rds")
+
