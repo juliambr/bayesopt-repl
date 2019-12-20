@@ -25,7 +25,7 @@ source("../helpers.R")
 #     Registry will be loaded
 # ---
 
-TEST = TRUE # <-- ADAPT
+TEST = FALSE # <-- ADAPT
 
 
 if (TEST) {
@@ -42,13 +42,13 @@ if (file.exists(registry_name)) {
   if (OVERWRITE) {
     unlink(registry_name, recursive = TRUE)
     reg = makeExperimentRegistry(file.dir = registry_name, seed = 123L,
-      packages = packages, source = c(deffile, "helpers.R"))
+      packages = packages, source = c(deffile, "../helpers.R"))
   } else {
     reg = loadRegistry(registry_name, writeable = TRUE)
   }
 } else {
     reg = makeExperimentRegistry(file.dir = registry_name, seed = 123L,
-      packages = packages, source = c(deffile, "helpers.R"))
+      packages = packages, source = c(deffile, "../helpers.R"))
 }
 
 # ---
@@ -89,4 +89,3 @@ addExperiments(
   algo.designs = ades, 
   repls = REPLICATIONS)
 
-i

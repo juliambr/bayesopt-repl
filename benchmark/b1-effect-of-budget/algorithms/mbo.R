@@ -22,10 +22,10 @@ fun = function(data, job, instance, repls, ...) {
     }
   }
 
+  models = run$models
+
   res = computeFictionalReturnValue(par.set, run, data)
   opdf = merge(opdf, res, all.x = TRUE, by = "dob")
-
-  models = run$models
 
   return(list(opt.path = opdf, fun = data, models = models))
 }
@@ -33,6 +33,6 @@ fun = function(data, job, instance, repls, ...) {
 
 ades = data.table(repls = c(2, 3, 4, 5))
 
-mbofun = list(fun = fun, ades = ades)
+mbofun = list(fun = fun, ades = ades, models = models)
 
 
