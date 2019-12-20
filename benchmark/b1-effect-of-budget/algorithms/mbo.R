@@ -31,8 +31,8 @@ fun = function(data, job, instance, repls, ...) {
 }
 
 
-ades = data.table(repls = c(2, 3, 4, 5))
+ades = mbo = data.table(repls = c(2, 3, 4, 5))
 
-mbofun = list(fun = fun, ades = ades, models = models)
+mbofun = list(fun = fun, ades = ades)
 
 
