@@ -3,7 +3,7 @@
 # ---
 
 # contains general (task and algorithm-independent) setup
-source("helpers.R")
+source("../helpers.R")
 
 # overwrite registry?
 OVERWRITE = FALSE

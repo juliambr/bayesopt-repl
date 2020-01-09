@@ -12,13 +12,12 @@ tab = summarizeExperiments(
 	by = c("job.id", "algorithm", "problem", "repls"))
 
 tosubmit = ijoin(tab, findNotDone())
-tosubmit = tosubmit[repls == 1, ]
 
 resources.serial = list(
 	walltime = 3600L * 96L, memory = 1024L * 4L,
 	clusters = "serial", max.concurrent.jobs = 1000L # get name from lrz homepage)
 )
 
-tosubmit$chunk = chunk(tosubmit$job.id, chunk.size = 30)
+tosubmit$chunk = chunk(tosubmit$job.id, chunk.size = 50)
 
 submitJobs(tosubmit, resources = resources.serial)
